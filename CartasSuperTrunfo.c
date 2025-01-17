@@ -18,7 +18,12 @@ int main() {
     scanf("%s", &codigo_da_cidade);
 
     printf("Digite o nome da cidade:\n");
-    scanf("%s", &nome);
+    scanf("%s[50]", &nome);
+
+    printf("Digite a população:\n");
+    scanf("%d", &populacao);
+
+    
 
 
     // Sugestão: Defina variáveis separadas para cada atributo da cidade.
